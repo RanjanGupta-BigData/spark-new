@@ -3,7 +3,7 @@ package com.spark.scala.ranjan
  * Created By Ranjan Kumar,Date-28/12/2019
  */
 import org.apache.spark.sql.SparkSession
-
+/** Ranjan */
 object sparkSql {
   def main(args: Array[String]): Unit = {
     val spark=SparkSession.builder().master("local[*]").appName("first spark").getOrCreate()
